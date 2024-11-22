@@ -26,7 +26,7 @@ qiime tools import --type 'FeatureData[Taxonomy]' --input-path QIIME2_EUK_ITS_v1
 # Import sequence data for ITS eukaryotic sequences
 # Input the SSU sequence file, output the SSU sequence artifact
 
-qiime tools import --input-path QIIME2_EUK_longread_v1.9.fasta --output-path EUK_ITS_seq.qza --type 'FeatureData[Sequence]'
+qiime tools import --input-path QIIME2_EUK_ITS_v1.9.fasta --output-path EUK_ITS_seq.qza --type 'FeatureData[Sequence]'
 
 # Train a Naive Bayes classifier for ITS eukaryotic sequences
 
